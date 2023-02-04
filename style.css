@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+.navigasi {
+  background-color: #f8f0ed;
+}
+
+nav {
+  font-family: "Merriweather", serif;
+  color: #3c322b;
+}
+nav ul li {
+  font-size: 16px;
+}
+.hero {
+  background-color: #f8f0ed;
+}
+.hero img {
+  width: 500px;
+}
+.hero {
+  font-family: "Playfair Display", serif;
+}
+.hero ul li {
+  list-style: none;
+}
+.content .card {
+  background-color: #ac9d8a;
+  color: #edfafa;
+}
+.content p {
+  font-family: "Playfair Display", serif;
+  font-size: 13px;
+}
+.content h5 {
+  font-family: "EB Garamond", serif;
+  font-size: 30px;
+}
+article {
+  background-color: #eaded2;
+  color: #3c322b;
+}
+article .row .right {
+  width: 500px;
+}
+
+article h6 {
+  font-family: "Merriweather", serif;
+}
+article h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+article p,
+ul,
+button {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+
+article .row img {
+  height: 350px;
+}
+.tato .card {
+  background-color: #f8f0ed;
+}
+.tato .card .row {
+  font-family: "Playfair Display", serif;
+  color: #3c332a;
+}
+.last .card .row {
+  font-family: "Playfair Display", serif;
+  background-color: #eaded2;
+  color: #3c332a;
+}
+
+.last .card .row h2 {
+  font-size: 35px;
+}
+
+/* responsive website */
+
+@media screen and (min-width: 600px) {
+  .navigasi ul {
+    width: 500px;
+  }
+  .navigasi form {
+    width: 300px;
+    margin: 3px;
+  }
+  .navigasi .navbar-brand {
+    width: 300px;
+  }
+  .hero .title-awal {
+    padding-left: 100px;
+  }
+  .content .card-body {
+    height: 200px;
+    margin-top: 30px;
+  }
+  article .right {
+    width: 500px;
+  }
+  article .row .right {
+    margin-left: 100px;
+  }
+  .tato .card .row .card-body {
+    margin-left: 100px;
+  }
+  .last .card .row .card-body {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero .title-awal {
+    text-align: center;
+    height: 160px;
+  }
+  .hero .title-awal h1 {
+    font-size: 22px;
+  }
+  .hero .title-awal button {
+    width: 105px;
+    font-size: 13px;
+  }
+  .content .card-body {
+    height: 260px;
+  }
+
+  .content h5 {
+    font-size: 28px;
+  }
+  .content p {
+    font-size: 13px;
+  }
+  article .row .right {
+    margin: 10px 60px 10px 60px;
+    width: 200px;
+  }
+
+  article h6 {
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+  }
+  article h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  article p,
+  ul,
+  button {
+    font-family: "Playfair Display", serif;
+    font-size: 13px;
+  }
+
+  article .row img {
+    width: 350px;
+  }
+  .tato .card .row {
+    margin: 10px;
+  }
+  .tato .card .row .card-body p,
+  ul,
+  button {
+    font-size: 13px;
+  }
+  .tato .card .row .card-body {
+    margin: 20px;
+    padding: 20px;
+  }
+  .last .card .row .card-body {
+    margin: 20px;
+    padding: 20px;
+  }
+  .last .card .row .card-body p,
+  ul,
+  button {
+    font-size: 13px;
+  }
+}
